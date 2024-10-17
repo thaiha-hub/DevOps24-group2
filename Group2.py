@@ -8,4 +8,5 @@ elif group > 6:
     print("There are only six groups, try to search for group 2 it is legendary!")
 elif group < 0:
     print("The group count starts at 1, try to search for group 2 it is legendary!")
-else print("Sorry there is no information to be found about group: " + group)
+else: 
+    print("Sorry there is no information to be found about group " + str(group))
